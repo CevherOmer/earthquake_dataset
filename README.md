@@ -6,7 +6,7 @@ The dataset is preprocessed for machine learning models to explore temporal and 
 ---
 
 ## 📂 Dataset Information
-
+---
 - **Original dataset size**: ~180 MB  
 - **Reason for split**: GitHub limits file uploads to 100 MB  
 - **Solution**: Dataset was split into **8 parts (~24 MB each)**  
@@ -22,28 +22,20 @@ cat part_*.csv > eqdata_preprocessed.csv
 ```PowerShell
 # Windows PowerShell
 Get-Content part_*.csv | Set-Content eqdata_preprocessed.csv
-📊 Dataset Overview
-Total rows: 262,188
 ```
+📊 Dataset Overview
+---
+Total rows: 262,188
 Columns: 43
-
 Magnitude range: 4.5 – 9.5
-
 Depth categories: shallow, intermediate, deep
-
 Example columns:
 time – Date and time of the earthquake
-
 latitude, longitude, depth, mag
-
 dist_to_fault_km – Distance to nearest fault
-
 rolling_count_15d – Rolling window counts
-
 mag_change_local, mag_change_near – Magnitude change features
-
 Normalized and z-scored versions for ML models
-
 📄 Dataset Columns
 ---
 time – Timestamp of the earthquake (UTC)
