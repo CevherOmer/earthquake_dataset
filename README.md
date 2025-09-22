@@ -26,16 +26,15 @@ Get-Content part_*.csv | Set-Content eqdata_preprocessed.csv
 📊 Dataset Overview
 ---
 Total rows: 262,188
+
 Columns: 43
+
 Magnitude range: 4.5 – 9.5
+
 Depth categories: shallow, intermediate, deep
-Example columns:
-time – Date and time of the earthquake
-latitude, longitude, depth, mag
-dist_to_fault_km – Distance to nearest fault
-rolling_count_15d – Rolling window counts
-mag_change_local, mag_change_near – Magnitude change features
+
 Normalized and z-scored versions for ML models
+
 📄 Dataset Columns
 ---
 time – Timestamp of the earthquake (UTC)
