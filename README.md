@@ -9,8 +9,7 @@ The dataset is preprocessed for machine learning models to explore temporal and 
 ---
 - **Original dataset size**: ~180 MB  
 - **Reason for split**: GitHub limits file uploads to 100 MB  
-- **Solution**: Dataset was split into **8 parts (~24 MB each)**  
-- **Location**: [`/dataset1/parts/`](./dataset1/parts/)  
+- **Solution**: Dataset was split into **8 parts (~24 MB each)** 
 
 Each part includes the header row for easier handling.  
 To merge them back into a single file:
